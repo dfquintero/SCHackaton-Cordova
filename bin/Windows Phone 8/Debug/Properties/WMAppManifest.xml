@@ -4,7 +4,7 @@
   <Languages xmlns="">
     <Language code="en-US" />
   </Languages>
-  <App Author="Apache Cordova Team" BitsPerPixel="32" Description="A blank project that uses Apache Cordova to help you build an app that targets multiple mobile platforms: Android, iOS, Windows, and Windows Phone." Genre="apps.normal" ProductID="{44c92a90-95e2-11e5-b4ef-81a93d4e5eab}" Publisher="Apache Cordova Team" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="SCHackaton" Version="1.0.0" xmlns="">
+  <App Author="Apache Cordova Team" BitsPerPixel="32" Description="A blank project that uses Apache Cordova to help you build an app that targets multiple mobile platforms: Android, iOS, Windows, and Windows Phone." Genre="apps.normal" ProductID="{96365af0-95fc-11e5-ae09-95f7a67cec87}" Publisher="Apache Cordova Team" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="SCHackaton" Version="1.0.0" xmlns="">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />

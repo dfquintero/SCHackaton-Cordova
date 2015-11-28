@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <script src="jQuery/jquery-2.1.4.min.js"></script>
     <link href="jQuery/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css" rel="stylesheet" />
     <script src="jQuery/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
@@ -15,10 +15,26 @@
 <body>
     <div data-role="page">
         <div data-role="header">
-
+            <a>btn</a>
+            <h1>ola k ase soy el titulo</h1>
         </div>
+        <div class="ui-content">
+            <div id="Ruletas">
+
+            </div>
+            <canvas id="canvasInAPerfectWorld" width="100" height="400">
+                hola soy un canvas
+            </canvas>
+            <div>
+                <h2 style="color:orangered">PALABRA</h2>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Hola soy el texto explicativo de la materia</div></div>
+                    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Hola soy una pequeña referencia del tema</div></div>
+                </div><!-- /grid-a -->
+            </div>
+        </div>
+
     </div>
-    <p>Hello, your application is ready!</p>
 
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
