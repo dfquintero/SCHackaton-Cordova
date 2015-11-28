@@ -11,6 +11,11 @@
     <title>SCHackaton</title>
     <!-- SCHackaton references -->
     <link href="css/index.css" rel="stylesheet" />
+            <link rel="stylesheet" href="bootstrap.css"></link>
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/ui-lightness/jquery-ui.css">
+        <link rel="stylesheet" href="bootstrap-responsive.css"></link>
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css">
+        <link rel="stylesheet" href="demo.css"></link>
 </head>
 <body>
     <div data-role="page">
@@ -32,8 +37,22 @@
     </div>
     <div data-role="page" id="ru1">
         <div data-role="header" id="In">
-            <center>
-                <img />
+            <center>    
+                        <div class="roulette_container" >
+                        <div class="roulette" style="display:none;">
+                            <img style="width:100%" src="01/1.png"/>
+                            <img src="img/01/2.png"/>
+                            <img src="img/01/3.png"/>
+                            <img src="img/01/4.png"/>
+                            <img src="img/01/5.png"/>
+                        </div>
+                        </div>  
+                        <div class="btn_container">
+                        <p>
+                        <button class="btn btn-large btn-primary start"> START </button>
+                        
+                        </p>
+                    </div>
             </center>
         </div>
         <div class="ui-content">
@@ -85,5 +104,7 @@
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
     <script src="scripts/index.js"></script>
+            <script src="roulette.js"></script>
+        <script src="demo.js"></script>
 </body>
 </html>
