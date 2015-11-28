@@ -3,4 +3,11 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\dfquintero\AppData\Local\Temp\l1nn5y15_SCHackaton_refcache</ReferenceCachePath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
+    <DebuggerFlavor>AndroidEmulator</DebuggerFlavor>
+    <AndroidEmulatorID>AndroidDevice;Device</AndroidEmulatorID>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows Phone 8'">
+    <DebuggerFlavor>PhoneDevice</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
