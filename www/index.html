@@ -14,7 +14,7 @@
 </head>
 <body>
     <div data-role="page">
-        <div data-role="header">
+        <div data-role="header" id="In">
             <center>
                 <img />
             </center>
@@ -30,11 +30,60 @@
         </div>
 
     </div>
+    <div data-role="page" id="ru1">
+        <div data-role="header" id="In">
+            <center>
+                <img />
+            </center>
+        </div>
+        <div class="ui-content">
+
+        </div>
+    </div>
+    <div data-role="page" id="ru2">
+        <div data-role="header" id="In">
+            <center>
+                <img />
+            </center>
+        </div>
+        <div class="ui-content">
+
+        </div>
+    </div>
+    <div data-role="page"id="draw1">
+        <div data-theme="a" data-role="header">
+            <span class="ui-title">
+            </span>
+        </div>
+        <div data-role="content">
+            <div style="width: 288px; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                 data-controltype="image">
+                <img src="https://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+            </div>
+            <input value="¡ DIBUJAR !" type="submit">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                    <h3>
+                        Polea
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" data-icon="grid">Summary</a></li>
+                    <li><a class="ui-btn-active" href="#" data-icon="star">Favs</a></li>
+                    <li><a href="#" data-icon="gear">Setup</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div><!-- /footer -->
+
+    </div>
 
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
-
     <script src="scripts/index.js"></script>
 </body>
 </html>
